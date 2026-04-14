@@ -1,0 +1,29 @@
+/*VARIAVEIS*/
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundaria: #C0C0C0; 
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*ESTILO DESKTOP*/
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+.principal {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+}
