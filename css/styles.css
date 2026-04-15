@@ -22,6 +22,11 @@ body {
     font-weight: 400;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .principal {
     background-image: url("../img/background.png");
     background-repeat: no-repeat;
@@ -96,6 +101,7 @@ body {
 .inferior {
     display: block;
     text-align: center;
+    margin-top: 6em;
 }
 
 .inferior__descricao {
@@ -108,4 +114,28 @@ body {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 0.7em;
+}
+
+footer {
+    text-align: center;
+    margin: 0 auto 99px;
+}
+
+footer img {
+    margin-bottom: 40px;
+}
+
+.list__link {
+    padding: 0.5em;
+    color: var(--branco-principal);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.rodape {
+    text-align: center;
+    margin: 2em auto 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    width: 1200px;
 }
